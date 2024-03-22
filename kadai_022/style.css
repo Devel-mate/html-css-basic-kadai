@@ -54,13 +54,13 @@ a:hover {
     color: rgb(245, 178, 168);
 }
 @media screen and (max-width: 768px) {
+    #parent {
+        display: block;
+    }
     h2 {
         font-size: 30px;
     }
     p {
         font-size: 25px;
-    }
-    #parent {
-        display: block;
     }
 }
